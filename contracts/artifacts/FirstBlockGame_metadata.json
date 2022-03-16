@@ -83,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Owner.sol": "firstBlockGame"
+			"contracts/2_Owner.sol": "FirstBlockGame"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,18 +91,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/2_Owner.sol": {
-			"keccak256": "0x039e6a5278f4fb7ad8804b79450c3caf9839d4e2e347f90530f15ccdee2878a6",
+			"keccak256": "0x0f6de059d2847d5ad9ff5a8256e8e6d160b93d153a5977ee40657ed5d680c440",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d04b8e248091586c6a8e990674f9e7993191ec14f30573a45d06fe6da9fb3595",
-				"dweb:/ipfs/QmQc39SxZEmpSYvPFwPj3N7GUmwM5WCU9dzffaFqjdHRCi"
+				"bzz-raw://2dd4e64f84663b594b1218fcfaf604e844ad7670486b195b66b6971c81134a93",
+				"dweb:/ipfs/Qmeu2G5hk5iWop2QECdJTb29v9AWBRbyZ45C64Uex6pdny"
 			]
 		}
 	},

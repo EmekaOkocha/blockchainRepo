@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.7;
+pragma solidity 0.8.7;
 
-contract firstBlockGame {
+contract FirstBlockGame {
     string public userName;
     string public salutation;
 
-    constructor (string memory user) {
+    constructor (string memory user){
         userName = user;
     }
-    function getName()public view returns(string memory){
-        return userName;
+    function getName(string memory _name)public{
+        userName= _name;
     }
     function letSayHello() public{
         salutation = "HELLO WORLD";
